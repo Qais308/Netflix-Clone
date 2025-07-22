@@ -8,6 +8,10 @@ A simple clone of the Netflix homepage using HTML and CSS. JavaScript will be ad
 - Styled with pure CSS
 - Navigation bar, banner, and content sections
 
+## 🚀 Live Demo
+
+[Click here to see the live website](https://Qais308.github.io/Netflix-Clone)
+
 ## 📦 Technologies Used
 
 - HTML5
