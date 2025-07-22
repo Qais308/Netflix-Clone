@@ -10,7 +10,7 @@ A simple clone of the Netflix homepage using HTML and CSS. JavaScript will be ad
 
 ## 🚀 Live Demo
 
-[Click here to see the live website](sage-jelly-af84c9.netlify.app)
+[Click here to see the live website](http://sage-jelly-af84c9.netlify.app)
 
 ## 📦 Technologies Used
 
