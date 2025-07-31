@@ -291,8 +291,10 @@ nav button {
     padding: 4px 10px;
     font-size: xx-small;
     }
-   
     .logo {
         height: 25px;
+    }
+    nav {
+        width: 95vw;
     }
 }
