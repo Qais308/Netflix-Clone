@@ -103,6 +103,7 @@ nav button {
     background-color: red;
     cursor: pointer;
     border: 1px solid gray;
+    margin-left: 10px;
 }
 
 .but3 {
@@ -372,21 +373,14 @@ nav button {
     }
 }
 @media screen and (max-width:500px){
-    .but1 {
-    width: 50px;
-    height: 20px; 
-    padding: 4px 10px;
-    border-radius: 3px;
-    font-size: xx-small;
-    }
     .but2 {
-    width: 50px;
-    height: 20px;    
-    border-radius: 3px;
-    padding: 4px 10px;
-    margin-right: 25px;
-    font-size: xx-small;
+        margin-right: 25px;
+        margin-left: 5px;
+        padding: 8px 17px;
     }
+    .but1 {
+        padding: 8px 17px;
+    } 
     .logo {
         height: 25px;
     }
@@ -410,7 +404,7 @@ nav button {
     font-size: 17px;
     }
     .text {
-        margin-top: 100px;
+        margin-top: 110px;
     }
 }
 
