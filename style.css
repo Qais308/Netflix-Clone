@@ -1,5 +1,6 @@
 body {
     overflow-y: auto;
+    background-color: black;
 }
 
 * {
@@ -138,50 +139,86 @@ nav button {
     padding-bottom: 20px;
     text-align: center;
 }
-.gridbox {
-    background-color: black;
-    max-width: 10000px;
-    margin: 0 auto;
-    padding: 0 120px;
+ 
+.container {
+  background-color: black;
+  width: 100%;
 }
-.grid {
-    background-color: black;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    column-gap: 20px;
-    row-gap: 20px;
+
+.container-wrapper {
+  background-color: black;
+  margin: 0 170px;
+  padding: 20px 0;
 }
-.grid-items img {
-     border-radius: 8px;
+
+.movie-list {
+  list-style: none;
+  overflow: hidden;       
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out;
 }
-.grid-items {
-    cursor: pointer;
-    justify-self: center;
+
+.movie-list .movie-item:hover {
+  transform: scale(1.03);
+  z-index: 100;  
 }
-.grid-items:hover {
-    transform: translateZ(30px) scale(1.05);
+
+.movie-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
 }
+
+.movie-link a {
+    display: block;
+    
+}
+
+.swiper-slide {
+    width: 300px;
+}
+
+.movie-link img {
+               
+  border-radius: 10px;       
+  transition: transform 0.4s ease-in-out;
+}
+
+.movie-link:hover img {
+  transform: scale(1.06);    
+}
+
+
 .faqbox {
     padding-top: 60px;
-    padding-bottom: 60px;
     text-align:center ;
     background-color: black;
     color: white; 
     font-size: 20px;
 }
 
+.faqbox h2 {
+    margin-bottom: 20px;
+}
+
 .hero {
     display: flex;
     margin: 10px auto;
     width: 80vw;
-    background-color: rgb(47, 44, 44);
+    background-color: rgb(44, 44, 44);
     padding: 25px;
     font-size: 25px;
     cursor: pointer;
+    transition: background-color 0.45s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
+
 .hero:hover {
-    background-color: rgb(95, 90, 90);
+    background-color: #3b3b3b;
 }
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -190,18 +227,21 @@ nav button {
     background-color: black;
     color: white;
 }
+
 .footer > :first-child {
     padding-bottom: 20px;
-    margin-top: 0;
+
 }
 .footer > :nth-child(2) {
     padding-bottom: 50px;
 }
+
 .custom-footer {
   background-color: #000;
   color: #999;
   padding: 40px 120px;
   font-family: Arial, sans-serif;
+  text-align: left;
 }
 
 .custom-footer-top a {
@@ -220,6 +260,7 @@ nav button {
 
 .custom-footer-links ul {
   list-style: none;
+  text-decoration: underline;
   padding: 0;
   margin: 0;
 }
@@ -235,28 +276,70 @@ nav button {
   text-decoration: underline;
 }
 
-.custom-footer-bottom {
-  margin-top: 20px;
+.footer-bottom>p {
+    color: #999;
+    padding: 40px 120px;
+
 }
 
-.language-dropdown {
-  background-color: transparent;
-  border: 1px solid #999;
-  color: #999;
-  padding: 8px;
-  margin-bottom: 10px;
+.language {
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #999;
+    color: #999;
+    padding: 8px;
+    margin-left: 120px;
 }
 
-.custom-footer-bottom p,
-.custom-footer-bottom small {
-  margin: 10px 0;
-  font-size: 13px;
+.footer-bottom small {
+    display: block;
+    color: #999;
+    padding-left: 120px;
+    padding-bottom: 150px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
 }
 
-.custom-footer-bottom a {
-  color: #0071eb;
-  text-decoration: none;
+@media screen and (max-width: 1400px) {
+    .container-wrapper {
+        margin: 0 100px;
+    }
 }
+
+@media screen and (max-width: 1300px) {
+    .container-wrapper {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer-bottom small{
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .custom-footer {
+        padding-left: 40px;
+    }
+    .language {
+        margin-left: 40px;
+    }
+    .footer-bottom>p {
+        padding: 40px;
+    }
+    .faqbox {
+    padding-top: 40px;
+    font-size: 17px;
+    }
+    .hero {
+    padding: 20px;
+    font-size: 20px;
+    }
+    
+}
+
+
 @media screen and (max-width: 620px) {
     .text {
         font-size: 42px;
@@ -275,6 +358,17 @@ nav button {
     .but4 {
         margin-top: 30px;
     }
+    .container-wrapper {
+        margin: 0 50px;
+    }
+    .faqbox {
+    padding-top: 35px;
+    font-size: 16px;
+    }
+    .hero {
+    padding: 18px;
+    font-size: 18px;
+    }
 }
 @media screen and (max-width:500px){
     .but1 {
@@ -289,6 +383,7 @@ nav button {
     height: 20px;    
     border-radius: 3px;
     padding: 4px 10px;
+    margin-right: 25px;
     font-size: xx-small;
     }
     .logo {
@@ -297,4 +392,22 @@ nav button {
     nav {
         width: 95vw;
     }
+    .vignette {
+        background: (circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8) 100%),
+      linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent 40%);
+    }
+    .line {
+        background-color: white;
+        height: 5px;
+    }
+    .faqbox {
+    padding-top: 35px;
+    font-size: 16px;
+    }
+    .hero {
+    padding: 17px;
+    font-size: 17px;
+    }
 }
+
+
