@@ -18,7 +18,7 @@ new Swiper('.movie-wrapper', {
         0: {
             slidesPerView: 2.5
         },
-        650: {
+        620: {
             slidesPerView: 3
         },
 
