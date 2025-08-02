@@ -588,15 +588,14 @@ nav button {
     .text {
         margin-left: 20px;
         margin-right: 20px;
-        text-align: center;
-        
+        font-size: 30px;
     }
-    small {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+    .small {
+    margin-top: 15px;
+    font-size: 13px;
+}
     .four {
-        margin-bottom: 30px;
+        margin-bottom: 120px;
     }
     .but3 {
      width: 250px;
@@ -611,7 +610,7 @@ nav button {
 }
 @media screen and (max-width:370px) {
      .four {
-        margin-bottom: 60px;
+        margin-bottom: 125px;
     }
     .but1 {
     border-radius: 4px;
@@ -640,5 +639,7 @@ nav button {
         font-size: 8px;
         font-weight: normal;
     }
-
+    .text {
+        font-size: 25px;
+    }
 }
