@@ -16,18 +16,22 @@ new Swiper('.movie-wrapper', {
     breakpoints: {
         
         0: {
+            slidesPerView: 2.5
+        },
+        650: {
             slidesPerView: 3
         },
-        550: {
+
+        750: {
+            slidesPerView: 3.5
+        },
+        850: {
             slidesPerView: 4
         },
-        700: {
+        950: {
             slidesPerView: 4.5
         },
-        750: {
-            slidesPerView: 5
-        },
-        950: {
+        1300: {
             slidesPerView: 5.5
         },
     

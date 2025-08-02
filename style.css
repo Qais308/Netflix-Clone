@@ -315,19 +315,19 @@ nav button {
 @media screen and (max-width: 1300px) {
     .movie-link img {
     height: auto;
-    width: 150px;
+    width: 180px;
 }
 }
 @media screen and (max-width: 1150px) {
     .movie-link img {
     height: auto;
-    width: 120px;
+    width: 160px;
 }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
     .movie-link img {
     height: auto;
-    width: 100px;
+    width: 150px;
 }
 }
 
@@ -353,7 +353,10 @@ nav button {
     padding: 20px;
     font-size: 20px;
     }
-    
+     .movie-link img {
+    height: auto;
+    width: 140px;
+}
 }
 
 
@@ -376,9 +379,7 @@ nav button {
         margin-top: 30px;
         padding: 10px;
     }
-    .container-wrapper {
-        margin: 0 50px;
-    }
+    
     .faqbox {
     padding-top: 35px;
     font-size: 16px;
@@ -387,10 +388,6 @@ nav button {
     padding: 18px;
     font-size: 18px;
     }
-    .movie-link img {
-    height: auto;
-    width: 90px;
-}
 }
 @media screen and (max-width:500px){
     .but2 {
@@ -428,7 +425,7 @@ nav button {
     }
        .movie-link img {
     height: auto;
-    width: 80px;
+    width: 110px;
 }
 }
 
