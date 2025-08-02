@@ -42,4 +42,3 @@ new Swiper('.movie-wrapper', {
     
     }
 });
-
