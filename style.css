@@ -192,7 +192,10 @@ nav button {
   transform: scale(1.06);    
 }
 
-
+.movie-link img {
+    height: auto;
+    width: 180px;
+}
 .faqbox {
     padding-top: 60px;
     text-align:center ;
@@ -310,9 +313,22 @@ nav button {
 }
 
 @media screen and (max-width: 1300px) {
-    .container-wrapper {
-        margin: 0 100px;
-    }
+    .movie-link img {
+    height: auto;
+    width: 150px;
+}
+}
+@media screen and (max-width: 1150px) {
+    .movie-link img {
+    height: auto;
+    width: 120px;
+}
+}
+@media screen and (max-width: 950px) {
+    .movie-link img {
+    height: auto;
+    width: 100px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -371,6 +387,10 @@ nav button {
     padding: 18px;
     font-size: 18px;
     }
+    .movie-link img {
+    height: auto;
+    width: 90px;
+}
 }
 @media screen and (max-width:500px){
     .but2 {
@@ -406,6 +426,10 @@ nav button {
     .text {
         margin-top: 110px;
     }
+       .movie-link img {
+    height: auto;
+    width: 80px;
+}
 }
 
 
