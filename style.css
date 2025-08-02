@@ -322,6 +322,7 @@ nav button {
     .movie-link img {
     height: auto;
     width: 160px;
+    border-radius: 8px;
 }
 }
 @media screen and (max-width: 1000px) {
@@ -356,6 +357,7 @@ nav button {
      .movie-link img {
     height: auto;
     width: 140px;
+     border-radius: 7px;
 }
 }
 
@@ -379,7 +381,9 @@ nav button {
         margin-top: 30px;
         padding: 10px;
     }
-    
+    .container-wrapper {
+        margin: 0 50px;
+    }
     .faqbox {
     padding-top: 35px;
     font-size: 16px;
@@ -423,10 +427,12 @@ nav button {
     .text {
         margin-top: 110px;
     }
-       .movie-link img {
-    height: auto;
-    width: 110px;
+    .movie-link img {   
+     border-radius: 6px;
 }
+.container-wrapper {
+        margin: 0 30px;
+    }
 }
 
 
