@@ -427,12 +427,17 @@ nav button {
     .text {
         margin-top: 110px;
     }
-    .movie-link img {   
+    .movie-link img { 
+    height: auto;
+    width: 130px;  
      border-radius: 6px;
 }
 .container-wrapper {
-        margin: 0 30px;
+
+    margin: 0 30px;
     }
 }
+
+
 
 
