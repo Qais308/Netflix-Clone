@@ -84,10 +84,13 @@ nav button {
 }
 
 .sm1 {
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-top: 12px;
     margin-bottom: 0;
+}
+
+.sm2 {
+    font-weight: normal;
 }
 
 .but1 {
@@ -228,6 +231,31 @@ nav button {
 .movie-link img {
     height: auto;
     width: 180px;
+}
+
+.reason-wrapper {
+    width: 78vw;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.reason {
+    display: flex;
+}
+
+.reason-wrapper h2 {
+    color: white;
+    text-align: left;
+    font-weight: normal;
+}
+
+.reason-cards {
+    height: 280px;
+    width: 290px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #192142, #310a34); 
+    margin-top: 15px; 
+    margin: 10px;
 }
 
 .faqbox {
