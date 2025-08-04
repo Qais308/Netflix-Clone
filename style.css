@@ -477,7 +477,10 @@ nav button {
 
 
 @media screen and (max-width: 620px) {
-
+    
+    .box {
+        opacity: 0.75;
+    }
     .text {
         font-size: 42px;
     }
