@@ -12,6 +12,7 @@ body {
 
 .main {
     background-image: url("images/bg.jpeg");
+    background-position: center center;
     height: 700px;
     position: relative;
 }
@@ -21,6 +22,7 @@ body {
     width: 100%;
     opacity: 0.6;
     background-color: black;
+  
     position: absolute;
     top: 0;
     z-index: 1;
@@ -475,6 +477,7 @@ nav button {
 
 
 @media screen and (max-width: 620px) {
+
     .text {
         font-size: 42px;
     }
