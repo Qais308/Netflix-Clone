@@ -282,11 +282,12 @@ nav button {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     justify-content: space-between;
-    margin: 10px auto;
+    margin: 5px auto;
+    margin-bottom: 1.5px;
     width: 75vw;
     background-color: rgb(44, 44, 44);
     padding: 25px;
-    font-size: 25px;
+    font-size: 24px;
     cursor: pointer;
     transition: background-color 0.45s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
@@ -669,3 +670,51 @@ nav button {
         font-size: 25px;
     }
 }
+
+/* .faq-answer {
+  display: none;
+  padding: 20px;
+  font-size: 24px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border-top: 1px solid #444;
+  animation: fadeIn 0.3s ease-in-out;
+  transition: max-height 0.3s ease;
+  margin: 0 auto;
+  width: 75.6vw;
+ 
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+} */
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  font-size: 24px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border-top: 1px solid #444;
+  margin: 0 auto;
+  width: 75.7vw;
+
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer.open {
+  max-height: 500px; /* Set this high enough */
+  padding: 20px;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
