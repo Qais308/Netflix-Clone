@@ -454,7 +454,7 @@ nav button {
         font-size: 45px;
     }
      .faq {
-        width: 80vw;
+        width: 85vw;
     }
     .faq-answer {
         width: 75.8vw;
@@ -481,7 +481,7 @@ nav button {
 
     .faqbox {
         padding-top: 40px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .hero .faq-answer{
@@ -548,7 +548,7 @@ nav button {
     }
 
     .hero {
-        padding: 15px;
+        padding: 17px;
         font-size: 14px;
     }
      .plus {
@@ -606,12 +606,12 @@ nav button {
     }
 
     .faqbox h2, .hero {
-        padding: 13px;
-        font-size: 12px;
+        padding: 17px;
+        font-size: 15px;
     }
      .faq-answer {
         width: 72vw;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .text {
@@ -665,14 +665,15 @@ nav button {
         font-size: 25px;
     }
     .faqbox h2, .hero {
-        padding: 12px;
-        font-size: 10px;
+        padding: 15px;
+        font-size: 13px;
     }
       .faq-answer {
-        width: 70vw;
-        font-size: 10px;
+        width: 71vw;
+        font-size: 13px;
     }
-}
+}     
+
 @media screen and (max-width:370px) {
      .four {
         margin-bottom: 125px;
@@ -701,12 +702,12 @@ nav button {
     }
      .faqbox h2, .hero {
         padding: 10px;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: normal;
     }
     .faq-answer {
         width: 70vw;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: normal;
     }
     .text {
