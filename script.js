@@ -45,56 +45,31 @@ new Swiper('.movie-wrapper', {
 
 
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const faqItems = document.querySelectorAll(".hero");
+document.addEventListener("DOMContentLoaded", function () {
+  const faqItems = document.querySelectorAll(".hero");
 
-//   faqItems.forEach((item) => {
-//     item.addEventListener("click", () => {
-//       const answer = item.nextElementSibling; // Get the .faq-answer div right after .hero
-//       const icon = item.querySelector(".plus");
+  faqItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      const answer = item.nextElementSibling;
+      const icon = item.querySelector(".plus");
+      const isOpen = answer.classList.contains("open");
 
-//       const isOpen = answer.style.display === "block";
+      // Close all
+      document.querySelectorAll(".faq-answer").forEach((ans) => {
+        ans.classList.remove("open");
+      });
+      document.querySelectorAll(".plus").forEach((ic) => {
+        ic.textContent = "+";
+      });
 
-//       // Close all answers and reset icons
-//       faqItems.forEach((el) => {
-//         el.nextElementSibling.style.display = "none";
-//         el.querySelector(".plus").textContent = "+";
-//       });
-
-//       // Toggle current one if it wasn't open
-//       if (!isOpen) {
-//         answer.style.display = "block";
-//         icon.textContent = "×";
-//       }
-//     });
-//   });
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const faqItems = document.querySelectorAll(".hero");
-
-//   faqItems.forEach((item) => {
-//     item.addEventListener("click", () => {
-//       const answer = item.nextElementSibling;
-//       const icon = item.querySelector(".plus");
-//       const isOpen = answer.classList.contains("open");
-
-//       // Close all
-//       document.querySelectorAll(".faq-answer").forEach((ans) => {
-//         ans.classList.remove("open");
-//       });
-//       document.querySelectorAll(".plus").forEach((ic) => {
-//         ic.textContent = "+";
-//       });
-
-//       // Open current if it was closed
-//       if (!isOpen) {
-//         answer.classList.add("open");
-//         icon.textContent = "×";
-//       }
-//     });
-//   });
-// });
+      // Open current if it was closed
+      if (!isOpen) {
+        answer.classList.add("open");
+        icon.textContent = "×";
+      }
+    });
+  });
+});
 
 
 

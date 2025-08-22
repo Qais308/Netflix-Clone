@@ -547,7 +547,7 @@ nav button {
         font-size: medium;
     }
 
-    .hero .faq-answer{
+    .hero {
         padding: 15px;
         font-size: 14px;
     }
@@ -559,7 +559,8 @@ nav button {
         margin-left: 60px;
     }
     .faq-answer {
-        width: 76.1vw;
+        width: 73vw;
+        font-size: 14px;
     }
 }
 
@@ -604,12 +605,13 @@ nav button {
         font-size: 16px;
     }
 
-    .faqbox h2 .hero .faq-answer {
+    .faqbox h2, .hero {
         padding: 13px;
         font-size: 12px;
     }
      .faq-answer {
-        width: 76.4vw;
+        width: 72vw;
+        font-size: 12px;
     }
 
     .text {
@@ -662,12 +664,13 @@ nav button {
     .plus {
         font-size: 25px;
     }
-    .faqbox h2 .hero .faq-answer {
+    .faqbox h2, .hero {
         padding: 12px;
         font-size: 10px;
     }
       .faq-answer {
-        width: 76.6vw;
+        width: 70vw;
+        font-size: 10px;
     }
 }
 @media screen and (max-width:370px) {
@@ -696,8 +699,13 @@ nav button {
         width: 120px;
         border-radius: 5px;
     }
-     .faqbox h2 .hero .faq-answer {
+     .faqbox h2, .hero {
         padding: 10px;
+        font-size: 8px;
+        font-weight: normal;
+    }
+    .faq-answer {
+        width: 70vw;
         font-size: 8px;
         font-weight: normal;
     }
