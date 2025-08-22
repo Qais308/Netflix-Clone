@@ -93,7 +93,7 @@ nav button {
 
 .sm2 {
     font-weight: normal;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .but1 {
@@ -482,7 +482,7 @@ nav button {
 
     .faqbox {
         padding-top: 40px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .hero {
@@ -502,7 +502,6 @@ nav button {
     }
    
 }
-
 
 @media screen and (max-width: 620px) {
     .text {
@@ -545,12 +544,12 @@ nav button {
     }
 
       .faqbox h2 {
-        font-size: medium;
+        font-size: 20px;
     }
 
     .hero {
-        padding: 19px;
-        font-size: 17px;
+        padding: 21px;
+        font-size: 18px;
     }
      .plus {
         font-size: 40px;
@@ -561,7 +560,7 @@ nav button {
     }
     .faq-answer {
         width: 74.5vw;
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 
@@ -605,10 +604,13 @@ nav button {
         padding-top: 50px;
         font-size: 16px;
     }
+       .faqbox h2 {
+        font-size: 19px;
+    }
 
     .hero {
-        padding: 18px;
-        font-size: 16px;
+        padding: 20px;
+        font-size: 17px;
     }
     .faqbox h2 {
         padding-left: 0;
@@ -616,7 +618,7 @@ nav button {
     }
      .faq-answer {
         width: 74vw;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .text {
@@ -641,6 +643,9 @@ nav button {
     }
     .sm1 {
         font-weight: normal;
+    }
+    .sm2 {
+        padding-top: 40px;
     }
     .small {
         margin-top: 20px;
@@ -669,13 +674,17 @@ nav button {
     .plus {
         font-size: 30px;
     }
-    .faqbox h2, .hero {
-        padding: 17px;
-        font-size: 15px;
+    .hero {
+        padding: 19px;
+        font-size: 16px;
+    }
+    .faq h2 {
+        margin-top: 0;
+
     }
       .faq-answer {
         width: 73.5vw;
-        font-size: 14px;
+        font-size: 16px;
     }
 }     
 
@@ -705,14 +714,14 @@ nav button {
         width: 120px;
         border-radius: 5px;
     }
-     .faqbox h2, .hero {
-        padding: 15px;
-        font-size: 14px;
+     .hero {
+        padding: 17px;
+        font-size: 15px;
         font-weight: normal;
     }
     .faq-answer {
         width: 73vw;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: normal;
     }
     .text {
