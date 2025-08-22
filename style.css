@@ -93,6 +93,7 @@ nav button {
 
 .sm2 {
     font-weight: normal;
+    margin-top: 90px;
 }
 
 .but1 {
@@ -169,7 +170,8 @@ nav button {
 .text-1 {
     background-color: black;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: bold;
     padding-top: 40px;
     padding-bottom: 20px;
     text-align: left;
@@ -273,7 +275,7 @@ nav button {
 
 .faqbox h2 {
     margin-bottom: 20px;
-    font-weight: normal;
+    font-size:x-large;
 }
 
 .hero {
@@ -283,7 +285,7 @@ nav button {
     font-weight: normal;
     justify-content: space-between;
     margin: 7px auto;
-    margin-bottom: 1.5px;
+    margin-bottom: 1.2px;
     width: 75vw;
     background-color: rgb(44, 44, 44);
     padding: 25px;
@@ -306,20 +308,19 @@ nav button {
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 25px;
   font-size: 24px;
   background-color: rgb(44, 44, 44);
   color: white;
   border-top: 1px solid #444;
   margin: 0 auto;
   width: 75.7vw;
-
   opacity: 0;
   transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
 }
 
 .faq-answer.open {
-  max-height: 500px; /* Set this high enough */
+  max-height: 500px; 
   padding: 20px;
   opacity: 1;
 }
@@ -417,7 +418,7 @@ nav button {
         margin: 0 100px;
     }
     .text-1 {
-        margin-left: 80px;
+        margin-left: 100px;
     }
 }
 
@@ -451,10 +452,10 @@ nav button {
         font-size: large;
     }
      .plus {
-        font-size: 45px;
+        font-size: 55px;
     }
      .faq {
-        width: 85vw;
+        width: 80vw;
     }
     .faq-answer {
         width: 75.8vw;
@@ -484,12 +485,12 @@ nav button {
         font-size: 20px;
     }
 
-    .hero .faq-answer{
+    .hero {
         padding: 20px;
         font-size: 20px;
     }
     .faq-answer {
-        width: 75.9vw;
+        width: 75.6vw;
     }
     .movie-link img {
         height: auto;
@@ -497,7 +498,7 @@ nav button {
         border-radius: 7px;
     }
      .plus {
-        font-size: 40px;
+        font-size: 45px;
     }
    
 }
@@ -549,18 +550,18 @@ nav button {
 
     .hero {
         padding: 19px;
-        font-size: 16px;
+        font-size: 17px;
     }
      .plus {
-        font-size: 35px;
+        font-size: 40px;
     }
     .text-1 {
         font-size: medium;
         margin-left: 60px;
     }
     .faq-answer {
-        width: 73vw;
-        font-size: 16px;
+        width: 74.5vw;
+        font-size: 17px;
     }
 }
 
@@ -601,17 +602,21 @@ nav button {
     }
 
     .faqbox {
-        padding-top: 35px;
+        padding-top: 50px;
         font-size: 16px;
     }
 
-    .faqbox h2, .hero {
+    .hero {
         padding: 18px;
-        font-size: 15px;
+        font-size: 16px;
+    }
+    .faqbox h2 {
+        padding-left: 0;
+        font-size: large;
     }
      .faq-answer {
-        width: 72vw;
-        font-size: 15px;
+        width: 74vw;
+        font-size: 16px;
     }
 
     .text {
@@ -629,7 +634,7 @@ nav button {
         margin: 0 30px;
     }
      .plus {
-        font-size: 30px;
+        font-size: 35px;
     }
     .text {
         font-size: 35px;
@@ -641,7 +646,7 @@ nav button {
         margin-top: 20px;
     }
     .text-1 {
-        margin-left: 30px;
+        margin-left: 40px;
     }
 }
 
@@ -662,14 +667,14 @@ nav button {
      width: 250px;
     }
     .plus {
-        font-size: 25px;
+        font-size: 30px;
     }
     .faqbox h2, .hero {
         padding: 17px;
-        font-size: 14px;
+        font-size: 15px;
     }
       .faq-answer {
-        width: 72vw;
+        width: 73.5vw;
         font-size: 14px;
     }
 }     
@@ -701,13 +706,13 @@ nav button {
         border-radius: 5px;
     }
      .faqbox h2, .hero {
-        padding: 10px;
-        font-size: 12px;
+        padding: 15px;
+        font-size: 14px;
         font-weight: normal;
     }
     .faq-answer {
-        width: 71vw;
-        font-size: 12px;
+        width: 73vw;
+        font-size: 14px;
         font-weight: normal;
     }
     .text {
