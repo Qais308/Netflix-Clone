@@ -282,7 +282,7 @@ nav button {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     justify-content: space-between;
-    margin: 5px auto;
+    margin: 7px auto;
     margin-bottom: 1.5px;
     width: 75vw;
     background-color: rgb(44, 44, 44);
@@ -301,6 +301,27 @@ nav button {
     line-height: 1;
     pointer-events: none;
     font-weight: 200;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  font-size: 24px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border-top: 1px solid #444;
+  margin: 0 auto;
+  width: 75.7vw;
+
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer.open {
+  max-height: 500px; /* Set this high enough */
+  padding: 20px;
+  opacity: 1;
 }
 
 .hero:hover {
@@ -435,6 +456,9 @@ nav button {
      .faq {
         width: 80vw;
     }
+    .faq-answer {
+        width: 75.8vw;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -460,11 +484,13 @@ nav button {
         font-size: 17px;
     }
 
-    .hero {
+    .hero .faq-answer{
         padding: 20px;
         font-size: 20px;
     }
-
+    .faq-answer {
+        width: 75.9vw;
+    }
     .movie-link img {
         height: auto;
         width: 140px;
@@ -521,7 +547,7 @@ nav button {
         font-size: medium;
     }
 
-    .hero {
+    .hero .faq-answer{
         padding: 18px;
         font-size: 18px;
     }
@@ -531,6 +557,9 @@ nav button {
     .text-1 {
         font-size: medium;
         margin-left: 60px;
+    }
+    .faq-answer {
+        width: 76.1vw;
     }
 }
 
@@ -575,9 +604,12 @@ nav button {
         font-size: 16px;
     }
 
-    .faqbox h2 .hero {
-        padding: 17px;
+    .faqbox h2 .hero .faq-answer {
+        padding: 14px;
         font-size: 17px;
+    }
+     .faq-answer {
+        width: 76.4vw;
     }
 
     .text {
@@ -630,9 +662,12 @@ nav button {
     .plus {
         font-size: 25px;
     }
-    .faqbox h2 .hero {
+    .faqbox h2 .hero .faq-answer {
         padding: 12px;
         font-size: 15px;
+    }
+      .faq-answer {
+        width: 76.6vw;
     }
 }
 @media screen and (max-width:370px) {
@@ -661,7 +696,7 @@ nav button {
         width: 120px;
         border-radius: 5px;
     }
-     .faqbox h2 .hero {
+     .faqbox h2 .hero .faq-answer {
         padding: 10px;
         font-size: 8px;
         font-weight: normal;
@@ -671,45 +706,6 @@ nav button {
     }
 }
 
-/* .faq-answer {
-  display: none;
-  padding: 20px;
-  font-size: 24px;
-  background-color: rgb(44, 44, 44);
-  color: white;
-  border-top: 1px solid #444;
-  animation: fadeIn 0.3s ease-in-out;
-  transition: max-height 0.3s ease;
-  margin: 0 auto;
-  width: 75.6vw;
- 
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-} */
-
-.faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  padding: 0 20px;
-  font-size: 24px;
-  background-color: rgb(44, 44, 44);
-  color: white;
-  border-top: 1px solid #444;
-  margin: 0 auto;
-  width: 75.7vw;
-
-  opacity: 0;
-  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
-}
-
-.faq-answer.open {
-  max-height: 500px; /* Set this high enough */
-  padding: 20px;
-  opacity: 1;
-}
 
 
 
